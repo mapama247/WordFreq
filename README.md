@@ -5,6 +5,7 @@ C++ code to count the word frequency of a text file.
 First of all, the program scans the text file looking for potential words (strings separated by at least one blanck character).
 
 Then, all potential words are "cleaned" and are determined to be either valid or invalid.
+
 A valid word has the following properties:
 
 - The word contains only letters (lower case or upper case) and hyphens.
@@ -20,9 +21,11 @@ Name of plain text file.
 ### Second command line parameter
 Three possible ways of displaying the final output:
 
-- a All valid words are printed in alphabetic increasing order followed by the frequency of that word (how many times that word occurred).
-- f All valid words are printed in decreasing frequency.
-- o Print all valid words in the same order they appear in the original file. An additional argument (N) is given to specify the maximum length of each sentence.
+-a All valid words are printed in alphabetic increasing order followed by the frequency of that word (how many times that word occurred).
+
+-f All valid words are printed in decreasing frequency.
+
+-o Print all valid words in the same order they appear in the original file. An additional argument (N) is given to specify the maximum length of each sentence.
 
 ## Execution Examples
 ```
