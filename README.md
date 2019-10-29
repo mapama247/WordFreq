@@ -15,10 +15,10 @@ Valid words are converted to lower case and added to the word list and statistic
 Invalid words are simply ignored.
 
 ## Input
-Plain text file. The file is specified by the user on the command line. 
-
-A second command line parameter (after the file name) is used to specify the final output:
-
+### First command line parameter
+Name of plain text file.
+### Second command line parameter
+Three possible ways of displaying the final output:
 -a All valid words are printed in alphabetic increasing order followed by the frequency of that word (how many times that word occurred).
 -f All valid words are printed in decreasing frequency.
 -o Print all valid words in the same order they appear in the original file. An additional argument (N) is given to specify the maximum length of each sentence.
@@ -26,8 +26,6 @@ A second command line parameter (after the file name) is used to specify the fin
 ## Execution Examples
 ```
 a.out example.html -a
-
 a.out example.html -f
-
 a.out example.html -o 14
 ```
