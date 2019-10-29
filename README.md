@@ -21,11 +21,12 @@ Name of plain text file.
 ### Second command line parameter
 Three possible ways of displaying the final output:
 
--a All valid words are printed in alphabetic increasing order followed by the frequency of that word (how many times that word occurred).
+-a All valid words are printed in alphabetic increasing order followed by the frequency of that word.
 
 -f All valid words are printed in decreasing frequency.
 
--o Print all valid words in the same order they appear in the original file. An additional argument (N) is given to specify the maximum length of each sentence.
+-o Print all valid words in the same order they appear in the original file.
+An additional argument (N) is given to specify the maximum length of each sentence.
 
 ## Execution Examples
 ```
