@@ -1,5 +1,5 @@
 # WordFreq
-C++ code to count the word frequency of a text file.
+Program that counts the word frequency of a text file.
 
 ## Program
 First of all, the program scans the text file looking for potential words (strings separated by at least one blanck character).
