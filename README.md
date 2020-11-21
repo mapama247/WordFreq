@@ -2,9 +2,7 @@
 Program that counts the word frequency of a text file.
 
 ## Program
-First of all, the program scans the text file looking for potential words (strings separated by at least one blanck character).
-
-Then, all potential words are "cleaned" and are determined to be either valid or invalid.
+First of all, the program scans the text file looking for potential words (strings separated by at least one blanck character). Then, all potential words are "cleaned" and are determined to be either valid or invalid.
 
 A valid word has the following properties:
 
